@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">MyMuseum</string>
+    <string name="no_image">No Image</string>
+    <string name="vanGogh">Encontrada a orelha de Van Gogh!</string>
+    <string name="monalisa">Monalisa destruída em incêndio</string>
+    <string name="leonardo">Leonardo Da Vinci infetado com COVID-19</string>
+    <string name="picasso">Picasso afinal está vivo!</string>
+    <string name="hitler">Novo museu temático alusívo ao Hitler</string>
+    <string name="mrbean">Mr.Bean vende Whistlers Mother por 2 milhôes de euros.</string>
+    <string name="newsFeed">NewsFeed</string>
+    <string name="menu">Menu</string>
+    <string name="myArea">MyArea</string>
+    <string name="myAreaLogin">MyAreaLogin</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="definicoes">Definições</string>
+    <string name="procura">Procurar museus</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="selected_item">Selected item:</string>
+    <string name="suporte">Qualquer problema não hesite em contactar o nosso suporte por:\n
+    email : mymuseum@support.com\n
+    telefone : 258556677</string>
+    <string name="cupao">15% desconto em todos os museus\n\n 20% desconto em todos os museus\n\n 25% desconto em todos os museus</string>
+    <string name="cupao1">25% desconto em todos os museus</string>
+    <string name="cupao2">20% desconto em todos os museus</string>
+    <string name="cupao3">15% desconto em todos os museus</string>
+
+    <string-array name="Museus">
+        <item>Acropolis Museum</item>
+        <item>British Museum</item>
+        <item>Louvre Museum</item>
+        <item>Orsay Museum</item>
+        <item>National Museum of Antropology</item>
+        <item>National Museum of Prado</item>
+        <item>Museum of Rijks</item>
+        <item>The Metropolitan Museum of Art</item>
+        <item>The National Gallery</item>
+        <item>The State Hermitage Museum</item>
+    </string-array>
+
+    <string-array name="Hora">
+        <item>Passe Diário</item>
+        <item>Manhã</item>
+        <item>Tarde</item>
+    </string-array>
+    <string-array name="Cupao">
+        <item>25% desconto</item>
+        <item>20% desconto</item>
+        <item>15% desconto</item>
+    </string-array>
+
+    <string name="notifyTitle">Toast</string>
+    <string name="notifyMsg">O aplicativo atual não possui as permissões necessárias. \ n \ nClique em \ "Configurações \" - \ "Permissões \" - para abrir as permissões necessárias.</string>
+    <string name="gpsNotifyMsg">O aplicativo atual precisa abrir a função de posicionamento. \ n \ nClique em \ "Configurações \" - \ "Serviços de Localização \" - para abrir a função de localização.</string>
+    <string name="setting">setting</string>
+    <string name="cancel">cacel</string>
+
+</resources>

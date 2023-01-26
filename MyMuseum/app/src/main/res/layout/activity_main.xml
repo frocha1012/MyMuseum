@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroound"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonNewsFeed"
+        android:layout_width="103dp"
+        android:layout_height="84dp"
+        android:background="@drawable/menuicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleMonalisa"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/monalisa"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/monalisa" />
+
+            <TextView
+                android:id="@+id/titlePicasso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picasso"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/elgrito" />
+
+            <TextView
+                android:id="@+id/titleHitler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hitler"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/hitlermuseu" />
+
+            <TextView
+                android:id="@+id/titleLeonardo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leonardo"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="413dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/leonardomascara" />
+
+            <TextView
+                android:id="@+id/titleBean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mrbean"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="401dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/mrbean" />
+
+            <TextView
+                android:id="@+id/titleVanGogh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vanGogh"
+                android:textColor="@color/castanho"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="606dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/vangoghear" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/newsFeed"
+        android:textColor="@color/cinza"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
